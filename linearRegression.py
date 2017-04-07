@@ -99,7 +99,7 @@ plt.plot(y,lossdata,'b^')
 plt.xlabel('No. of Iterations -->')
 plt.ylabel('loss -->')
 plt.title('Iterations v/s Loss graph')
-#plt.show()
+
 predictions = model.predict(check)
 print "Predicted values are :"
 print predictions
